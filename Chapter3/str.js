@@ -132,7 +132,7 @@ text25 = text25.match('web');
 // console.log(resu);
 
 let text26 = 'Jonayed nasir is a bigeinar web devloper web web';
-const resu = text26.matchAll(/web/g); // ✅ এটি RegExp
+const resu = text26.matchAll(/web/g); 
 
 for (const match of resu) {
   // console.log(match);
