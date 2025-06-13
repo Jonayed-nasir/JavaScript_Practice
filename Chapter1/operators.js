@@ -23,8 +23,7 @@ let mul = 4 * 9;
 
 let beton = 5;
 let bonas = 6;
-
-let to = beton * bonas;
+// let to = beton * bonas;
 
 // console.log(to);
 

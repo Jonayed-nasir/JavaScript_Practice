@@ -31,9 +31,9 @@ console.log(myName);
 
 //! Using const keyward to declared
 
-const mycompanies =
-  'New Part, Youtbe channel, hablu programmers, Eshan vaya, Tutul vaya';
-console.log(mycompanies);
+// const mycompanies =
+//   'New Part, Youtbe channel, hablu programmers, Eshan vaya, Tutul vaya';
+// console.log(mycompanies);
 
-let nu = null;
+// let nu = null;
 // console.log(typeof nu);

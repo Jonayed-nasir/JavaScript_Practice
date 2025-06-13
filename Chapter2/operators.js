@@ -34,4 +34,4 @@ let dvd = 100 / 3;
 let raj = 200;
 let to2 = 2;
 let mot = raj / to2;
-console.log(mot);
+// console.log(mot);

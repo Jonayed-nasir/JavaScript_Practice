@@ -46,7 +46,7 @@ dechs.litePrich = '350$';
 //add property
 dechs.lite = 'white';
 
-//delete property
+//?delete property
 delete dechs.liteBold;
 
 //

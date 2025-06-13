@@ -22,8 +22,6 @@ let b = 10;
 // let c = 'jonayed';
 // let d = 'Nasir';
 
-// let result = c.toLowerCase() > d.toLowerCase();
+let result = c.toLowerCase() > d.toLowerCase();
 
 // console.log(result);
-
-

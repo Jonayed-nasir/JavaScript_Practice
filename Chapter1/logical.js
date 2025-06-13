@@ -14,7 +14,7 @@
 // let required = false; // true or //false
 
 // console.log(eligible && required); //true or //false
-//!*
+//!
 // let b = true;
 // let result = b && (1 / 0);
 // console.log(result);

@@ -29,4 +29,4 @@
 // let eligible = false;
 // let required = true; // false >>==
 
-//* console.log(eligible || required); //fales >>==
+// console.log(eligible || required); //fales >>==

@@ -1,7 +1,7 @@
 //! Javascript dataTypes is 10
 
 /*
-?String
+!String
 ?Number
 ?Bigint
 ?Boolean

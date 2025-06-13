@@ -16,7 +16,7 @@ person.manajar = 'raj';
 //update object property
 person.fistName = 'Jubayer';
 
-// delete property from object
+// ?delete property from object
 delete person.lastName;
 delete person.manajar;
 delete person.companis;
