@@ -15,9 +15,15 @@ mixed.pop();
 mixed.shift();
 mixed.shift();
 //
-console.log(Array.isArray(mixed));
-console.log(mixed);
+// console.log(Array.isArray(mixed));
+// console.log(mixed);
 // console.log(mixed.indexOf(true));
 // console.log(mixed.length);
 // console.log(mixed.length);
 // console.log(mixed[3]);
+
+const array1 = ['apple', 'banana', 'orange', 'grape', 'kiwi', 43];
+let myList = array1.toString();
+// console.log(myList);
+// console.log(array1);
+// console.log(array1.toString());
