@@ -85,3 +85,29 @@ const array10 = [11, 12, 13, 14, 15];
 
 let joyen = array8.concat(array9, array10);
 // console.log(joyen);
+
+//? The copyWithin() Method
+const array11 = [1, 2, 3, 4, 5, 6];
+// console.log(array11.copyWithin(2, 1));
+
+//? The flat() method
+const myArr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [10, 11, 12, 13, 14, 15],
+  [16, 17, 18],
+  [19, 20],
+];
+// let flatArr = myArr.flat()
+// console.log(myArr.flat(2));
+
+//? The slice() method
+const arr = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+// console.log(arr.slice(2));
+// console.log(arr);
+
+//? The splice() method
+const arra = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+console.log(arra);
+console.log(arra.splice(1, 5));
