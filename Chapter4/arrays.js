@@ -22,8 +22,26 @@ mixed.shift();
 // console.log(mixed.length);
 // console.log(mixed[3]);
 
+// ?The toString() Method
 const array1 = ['apple', 'banana', 'orange', 'grape', 'kiwi', 43];
 let myList = array1.toString();
 // console.log(myList);
 // console.log(array1);
 // console.log(array1.toString());
+
+// ?The at() Method
+const array2 = ['apple', 'banana', 'orange', 'grape', 'kiwi', 43];
+// console.log(array2.at(1));
+// let myFruit = array2.at(2);
+// console.log(myFruit);
+
+// console.log(array2.at(1));
+// console.log(array2.at(-1));
+// console.log(array1.at(-2))
+// console.log(array1[-1])
+
+// ?The join() method
+const nameNum = ['jonayed', 75489, 'nasir', 'newPart'];
+// console.log(nameNum.join(' * '));
+// let myName = nameNum.join(', ');
+// console.log(myName)
