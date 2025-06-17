@@ -108,6 +108,11 @@ const arr = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
 // console.log(arr);
 
 //? The splice() method
-const arra = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
-console.log(arra);
-console.log(arra.splice(1, 5));
+// const arra = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+// console.log(arra);
+// console.log(arra.splice(1, 5));
+
+//? The toSpliced() method
+// const arraa = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+// arraa.toSpliced(0, 1);
+// console.log(arraa);
