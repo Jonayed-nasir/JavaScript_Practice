@@ -53,6 +53,9 @@ let max = Math.max(1, 2, -3, 4, -4, 23);
 let random = Math.random();
 // console.log(random);
 
-
 // ? the Math.abs()
-let abs = Math.abs(3.55)
+let abs = Math.abs(-4.3);
+// console.log(abs);
+
+let m = Math.round(Math.random() * 10 + 1)
+// console.log(m)
