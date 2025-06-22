@@ -46,3 +46,12 @@ if (password === 75489) {
 } else {
   // console.log('password in not correct');
 }
+
+let slami = 1000;
+if (slami <= 800) {
+  // console.log('Slami is less than or equal to 800');
+} else if (slami <= 600) {
+  // console.log('Slami is less than or equal to 600');
+} else {
+  // console.log('Slami is greater than 500');
+}
