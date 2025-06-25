@@ -71,3 +71,8 @@
 //     console.log('You have got' + rand);
 //   }
 // }
+// let i = 0
+// while (i < 10) {
+//   console.log(i + ' hello jonayd nasir');
+//     i++;
+// }
