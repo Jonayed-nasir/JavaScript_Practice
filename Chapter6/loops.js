@@ -55,8 +55,19 @@
 // console.log(`result = ${sum}`);
 
 //? while Loop
-let i = 0;
-while (i < 10) {
-  console.log('hello jonayd nasir');
-  i++
-}
+// let i = 0;
+// while (i < 10) {
+//   console.log('hello jonayd nasir');
+//   i++
+// }
+
+// let i = true;
+// while (i) {
+//     let rand = Math.floor(Math.random() * 10 + 1);
+//     if (rand == 9) {
+//         console.log('Winner Winner Chicken Dinner' + rand);
+//     i = false;
+//   } else {
+//     console.log('You have got' + rand);
+//   }
+// }
