@@ -76,3 +76,51 @@
 //   console.log(i + ' hello jonayd nasir');
 //     i++;
 // }
+
+// ?for in loop
+
+// const person = {
+//   firstName: 'Jonayed',
+//   lastName: 'nasir',
+//   age: '18',
+//   width: '6fit',
+// };
+// let text = '';
+// for (let x in person) {
+//   text += person[x] + '\n';
+// }
+
+// console.log(text);
+
+// let tex = ''
+// for (let x in person){
+//     tex += `${x} : ${person[x]} \n`
+// }
+// console.log(tex)
+
+//? The forEach() method
+// const number = [2, 3, 4, 5, 6, , 7, 87];
+// let txt = '';
+// number.forEach(myFunction);
+
+// function myFunction(value, index, array) {
+//   return (txt += `${value} \n`);
+// }
+
+// console.log(txt)
+
+//? for of loop
+// let txt = '';
+// let number = [13, 2,53, 47, 59, 65, 73, 82, 91];
+// let number = ['jonayed', 'nasir', 'new part']
+// for (let x of number) {
+//   txt += x + '\n'
+// }
+// console.log(txt)
+// let text = "jonayed nasir is a web deboloper"
+// let txt = '';
+// for (let x of text) {
+//   txt += x + '\n';
+// }
+
+// console.log(txt);
