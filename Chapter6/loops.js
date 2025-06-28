@@ -124,3 +124,16 @@
 // }
 
 // console.log(txt);
+
+// ?do while loop
+
+let isRuning = false;
+do {
+  console.log('Hello Jonayed Nasir');
+} while (isRuning);
+
+let i = 1;
+do {
+  console.log(i + ' Hello Jonayed');
+  i += 2;
+} while (i <= 10);
