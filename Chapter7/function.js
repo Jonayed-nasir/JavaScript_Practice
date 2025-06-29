@@ -1,3 +1,10 @@
+// function Person(firstName, lastName) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+// }
+// let perso = new Person('jonayed', 'nasir');
+
+// console.log(perso.firstName);
 //! js function]
 
 // function myFunction(name, name2) {
@@ -28,3 +35,21 @@
 // }
 
 // per();
+
+// ?function are First class citizen
+//? storing functions in variables
+
+// function myFunction(a, b) {
+//   return a + b;
+// }
+
+// let sum = myFunction;
+// console.log(sum(4, 6));
+// console.log(myFunction(45, 3));
+
+// function fun(c, d) {
+//   return c * d;
+// }
+// let meni = fun;
+// console.log(meni(42, 4));
+// console.log(fun('2', '11'));
