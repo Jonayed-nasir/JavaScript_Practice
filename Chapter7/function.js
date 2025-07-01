@@ -92,3 +92,22 @@
 // fetchData(function(result) {
 //   console.log("Result:", result);
 // });
+
+// ?Javascrit naonymous function
+
+// (function () {
+//   console.log('Hello Jonayed Nasir How you do ');
+// })();
+
+// let show = function () {
+//   return 'Hello Nasir';
+// };
+
+// console.log(show());
+
+// let rifat = function (a, b) {
+//   return a + b;
+// };
+
+// let sum = rifat(27, 15);
+// console.log(sum)
