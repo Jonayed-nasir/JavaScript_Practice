@@ -53,3 +53,42 @@
 // let meni = fun;
 // console.log(meni(42, 4));
 // console.log(fun('2', '11'));
+
+//? nestex function
+
+// function jonayed(a) {
+//   function nasir(b) {
+//     function newPart(c) {
+//       console.log(a, b, c);
+//     }
+//     newPart('Jobayer: fuondar of newPart ');
+//   }
+//   nasir('Jonayed: newPart compani');
+// }
+
+// jonayed('Jonayed: c.o of newPart');
+
+//? another function
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// let sum = add;
+
+// function average(a, b, fun) {
+//   return fun(a, b) * 2;
+// }
+
+// let result = average(2, 4, sum);
+
+// console.log(result)
+
+// function fetchData(callback) {
+//   let data = 42;
+//   callback(data);
+// }
+
+// fetchData(function(result) {
+//   console.log("Result:", result);
+// });
