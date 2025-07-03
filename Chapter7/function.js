@@ -93,7 +93,7 @@
 //   console.log("Result:", result);
 // });
 
-// ?Javascrit naonymous function
+// ?Javascrit anonymous function
 
 // (function () {
 //   console.log('Hello Jonayed Nasir How you do ');
@@ -111,3 +111,93 @@
 
 // let sum = rifat(27, 15);
 // console.log(sum)
+
+//? pass-by-value or pass-by-reference
+//? pass-by-value of primitives values
+
+// function square(x) {
+//   x = x * x;
+//   return x;
+// }
+
+// let y = 10;
+// let result = square(y);
+// console.log(result);
+// console.log(y)
+
+let person = {
+  name: 'Jonayed',
+  age: 18,
+};
+
+// function increaseAge(obg) {
+//   obg.age += 2;
+//   obg.name = 'Nasir';
+// }
+
+// increaseAge(person);
+// console.log(person.age);
+// console.log(person.name);
+
+// let person2 = {
+//   name: 'John',
+//   age: 25,
+// };
+
+// function increaseAge(obj) {
+//   obj.age += 1;
+
+//   // reference another object
+//   obj = { name: 'Jane', age: 22 };
+// }
+
+// increaseAge(person2);
+
+// console.log(person2);
+
+// let product = {
+//   name: 'phon',
+//   prich: 1000,
+// };
+
+// function discount(obg) {
+//   obg.prich -= 200;
+// }
+// discount(product)
+
+// console.log(product.prich)
+
+// let redMurk = { ...product };
+
+// function discount(obg) {
+//   obg.prich -= 100;
+// }
+
+// discount(product);
+
+// console.log(product);
+// console.log(redMurk);
+// let a = 10;
+
+// function changeValue(b) {
+//     b = 20;
+// }
+// changeValue(a);
+// console.log(a);
+
+//? JavaScript Recursive Function
+
+// function recurse() {
+//   //...
+//   recurse();
+//   //...
+// }
+
+// function factorial(n) {
+//   if (n === 1) return 1;
+//   return n + factorial(n - 1);
+// }
+
+// console.log(factorial(5));
+
+// 5! = 5 + 4 + 3 + 2 + 1
