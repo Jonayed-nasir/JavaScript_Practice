@@ -201,3 +201,11 @@ let person = {
 // console.log(factorial(5));
 
 // 5! = 5 + 4 + 3 + 2 + 1
+
+//? JavaScript Default Parameters
+
+// function say(name = 'Jonayed', age = 18) {
+//   console.log(name, age);
+// }
+
+// say('nasir', 20);
