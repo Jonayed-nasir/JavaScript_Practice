@@ -1,5 +1,7 @@
 //! For Loops
 
+const { Result } = require("postcss");
+
 //! for loop er gthon
 // for (initializer, condition, increment){
 //
@@ -127,13 +129,58 @@
 
 // ?do while loop
 
-let isRuning = false;
-do {
-  console.log('Hello Jonayed Nasir');
-} while (isRuning);
+// let isRuning = false;
+// do {
+//   console.log('Hello Jonayed Nasir');
+// } while (isRuning);
 
-let i = 1;
-do {
-  console.log(i + ' Hello Jonayed');
-  i += 2;
-} while (i <= 10);
+// let i = 1;
+// do {
+//   console.log(i + ' Hello Jonayed');
+//   i += 2;
+// } while (i <= 10);
+
+//? nested loop
+
+// let n = 12;
+// for (let i = 1; i <= n; i++) {
+//   let result = '';
+//   for (let j = 1; j <= i; j++) {
+//     result += j + ' ';
+//   }
+//   console.log(result);
+// }
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// 1 2 3 4 5 6
+// 1 2 3 4 5 6 7
+// 1 2 3 4 5 6 7 8
+// 1 2 3 4 5 6 7 8 9
+// 1 2 3 4 5 6 7 8 9 10
+// 1 2 3 4 5 6 7 8 9 10 11
+// 1 2 3 4 5 6 7 8 9 10 11 12
+
+let x = 10;
+
+for (let i = 1; i <= x; i++){
+  let result = ''
+  for (let j = 1; j <= i; j++){
+    result += ' *';
+  }
+  console.log(result)
+}
+
+//  *
+//  * *
+//  * * *
+//  * * * *
+//  * * * * *
+//  * * * * * *
+//  * * * * * * *
+//  * * * * * * * *
+//  * * * * * * * * *
+//  * * * * * * * * * *
