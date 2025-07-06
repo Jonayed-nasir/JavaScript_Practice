@@ -23,3 +23,11 @@
 // let email = 'user@gmail.com';
 // let result = email.replace(/\S+@\S+\.\S+/g, '[email hidden]');
 // console.log(result); // [email hidden]
+
+// let names = 'Jonayed nasir'
+// let result = names.match(/nasir/)
+// console.log(result)
+
+// let names = 'Jonayed nasir';
+// let result = names.replace(/nasir/, '');
+// console.log(result);
