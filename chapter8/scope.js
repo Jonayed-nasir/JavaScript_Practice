@@ -35,6 +35,7 @@ greetI();
 
 // console.log(age); // ❌ Error
 // console.log(name); // ❌ Error
-console.log(city); // ✅ Dhaka (var is NOT block scoped)
+// console.log(city); // ✅ Dhaka (var is NOT block scoped)
 
 // 🔹 let ও const block scoped — তারা শুধু {} এর ভিতর কাজ করে।
+
