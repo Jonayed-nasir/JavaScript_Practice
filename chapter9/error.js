@@ -53,7 +53,6 @@
 // let d = 'hello world!'
 // console.log(d)
 
-
 // function convertToNumber(str) {
 //   // যদি str সংখ্যা না হয়, তাহলে error দাও
 //   if (isNaN(str)) {
@@ -66,4 +65,27 @@
 //   console.log(convertToNumber("abc"));
 // } catch (e) {
 //   console.log("Conversion Error:", e.message);
+// }
+
+//? Input Validation Example
+
+// function myFun() {
+//   const message = document.getElementById('Ptag');
+//   message.innerHTML = '';
+
+//   let x = document.getElementById('demo').value;
+
+//   try {
+//     if (x.trim() == '') throw 'empty';
+//     if (isNaN(x)) throw 'not a number';
+
+//     x = Number(x);
+//     if (x < 5) throw 'too low';
+//     if (x >= 5 && x <= 10) {
+//       message.innerHTML = '✅ Input is valid: ' + x;
+//     }
+//     if (x > 10) throw 'too high';
+//   } catch (err) {
+//     message.innerHTML = 'Input is ' + err;
+//   }
 // }
