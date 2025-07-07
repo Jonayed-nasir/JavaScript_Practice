@@ -1,3 +1,11 @@
+// module
+
+export function multipay(a, b) {
+  return a + b;
+}
+
+export const author = 'Jonayed';
+
 // !JavaScript Errors
 
 // try {
